@@ -1,0 +1,281 @@
+a:hover{
+    text-decoration: none;
+}
+
+.section{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.section h2.section-head{
+    color: black;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section h2.section-head:after{
+    background-color:rgb(202, 112, 112);
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    margin: 20px auto;
+}
+
+#header{
+    color: white;
+    background-color: rgb(202, 112, 112);
+}
+
+#logo{
+    font-size: 2rem;
+    margin-top: 5px;
+}
+
+#menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu li{
+    display: inline-block;
+}
+
+#menu li a{
+    display: block;
+    color: white;
+    padding: 15px 10px;
+}
+
+#menu li a:hover{
+    background-color: rgb(99, 28, 28);
+}
+
+
+#banner{
+   background: url('https://images.unsplash.com/photo-1528563351349-844bf0482bf0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1480&q=80')no-repeat 0 0;
+   background-size: cover;
+   background-position: center;
+}
+
+.banner-tittle {
+    padding: 3rem;
+}
+
+.banner-tittle h1{
+    background-color: rgba(255, 255, 255 ,0.8);
+    display: inline-block;
+    padding: 10px;
+    margin: 0;
+}
+
+.banner-tittle p.lead{
+    color: white;
+    background-color: rgba(202, 112, 112, 0.7);
+    padding: 10px;
+}
+
+.service-box{
+    text-align: center;
+}
+
+.service-box i.fa{
+    color:rgb(202, 112, 112);
+    font-size: 70px;
+    margin-bottom: 15px;
+}
+
+#testimonials{
+    color: white;
+    background-image:url('https://images.unsplash.com/photo-1506899689252-707a63f4c766?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');
+    background-size: cover;
+    padding: 50px 0;
+    position: relative;
+}
+
+#testimonials:before{
+    background-color: rgba(52, 73, 94, 0.7);
+    content: "";
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: 100%;
+}
+
+.testimonial img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.news-post img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.news-post h3{
+    font-size: 1.35rem;
+}
+
+.news-post h3 a{
+    color: rgb(202, 112, 112);
+}
+
+.post-date{
+    font-size: 13px;
+    margin-bottom: 2px;
+}
+
+.post-date:before{
+    content: "\f073";
+    font-family: FontAwesome;
+    padding-right: 5px;
+}
+
+a.readmore{
+    font-size: 14px;
+    color:rgb(202, 112, 112) ;
+}
+
+a.readmore:after{
+    content: "\f101";
+    font-family: FontAwesome;
+    padding-left: 5px;
+}
+
+.footer-sidebar{
+    color: white;
+    background-color: rgb(59, 59, 99);
+    padding: 20px 0;
+}
+
+.footer-widget h4:after{
+    content: "";
+    background-color: white;
+    display: block;
+    width: 50px;
+    height: 2px;
+    margin: 5px 0;;
+}
+
+.footer-widget a{
+    color: white;
+
+}
+
+.latest-news{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.latest-news li{
+    margin-bottom: 3px;
+
+}
+
+.latest-news li:before{
+    content: "\f101";
+    font-family: FontAwesome;
+    padding-left: 5px;
+}
+
+#footer{
+    color: white;
+    background-color: rgb(53, 54, 56);
+    padding: 10px 0;
+}
+
+#social-icons{
+    list-style: none;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+#social-icons li{
+    display: inline-block;
+    padding-left: 5px;
+}
+
+#social-icons li a{
+    color: white;
+    font-size: 23px;
+    padding: 0 5px;
+}
+
+
+
+
+
+
+
+@media (max-width: 992px){
+    .news-post{
+        margin-bottom: 30px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px){
+#logo{
+    text-align: center;
+    margin: 10px 0;
+}
+
+#menu{
+    text-align: center;
+
+}
+
+.banner-tittle{
+    padding-top: 0;
+
+}
+
+.banner-tittle h1{
+    font-size: 1.7rem;
+}
+
+.section{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+     .testimonial{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .service-box{
+        margin-bottom: 30px;
+    }
+
+
+    .footer-widget{
+        margin-bottom: 20px;
+    }
+
+    #footer{
+        text-align: center;
+
+    }
+    #social-icons{
+        margin-top: 10px;
+    }
+}
